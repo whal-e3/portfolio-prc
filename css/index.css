@@ -1,0 +1,135 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 30px;
+    font-family: "Cinzel", "Sans-serif";
+    text-align: center;
+    overflow-x: hidden;
+}
+
+img {
+    width: 180px;
+    height: auto;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.welcome {
+    margin: 0 auto;
+    font-size: 54px;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+@keyframes fadeIn {
+    from {opacity: 0.0;}
+    to {opacity: 1.0;}
+}
+
+section {
+    position: relative;
+    margin-top: 48px;
+}
+
+.linkDescription {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+section .project {
+    position: relative;
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+    border: solid #5d6475 2px;
+    padding: 4px;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    animation-name: slideDown;
+    animation-duration: 1.0s;
+    animation-timing-function: ease;
+}
+section .think {
+    position: relative;
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+    border: solid #5d6475 2px;
+    padding: 4px;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    animation-name: slideDown;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
+}
+section .blog {
+    position: relative;
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+    border: solid #5d6475 2px;
+    padding: 4px;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    animation-name: slideDown;
+    animation-duration: 1.6s;
+    animation-timing-function: ease;
+}
+section .portfolio {
+    position: relative;
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+    border: solid #5d6475 2px;
+    padding: 4px;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    animation-name: slideDown;
+    animation-duration: 1.9s;
+    animation-timing-function: ease;
+}
+@keyframes slideDown {
+    from { opacity: 0.0;   top: -40px; }
+    to { opacity: 1.0;  top: 0px; }
+}
+
+
+section a:hover {
+    box-shadow: 0 0 3px #666666;
+}
+
+.tooltip {
+    opacity: 0.0;
+    width: max-content;
+    background-color: none;
+    text-align: center;
+    font-size: 13px;
+    /* Position the tooltip */
+    transition: opacity 0.6s;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 108%;
+}
+a:hover .tooltip {
+    opacity: 1.0;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    top: 94vh;
+    margin: 0 auto;
+    color: #5d647577;
+}
+.about {
+    color: #5d647599;
+}
+.about:hover {
+    color: #5d6475;
+}

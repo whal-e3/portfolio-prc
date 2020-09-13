@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Eric Whale">
+    <meta name="description" content="portfolio of Eric Whale, software engineer, learning enthusiast">
+
+    <!--add more keywords-->
+    <meta name="keywords" content="portfolio, recruit, software_engineer,">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Whale - portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Cinzel">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="top">
+        <nav><a class="contact" href="#footerContact">contact</a></nav>
+        <div class="description">
+            <h1 class="myName">Eric Whale</h1>
+            <img class="logo" src="image/whale.png" alt="logo img">
+            <p class="briefAbout">
+                a blank piece of paper, but every words inside.
+            </p>
+        </div>
+    </header>
+    
+    <section class="searchBar">
+        <div class="button webButton">
+            <button type="button" class="btn btn-danger button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                full stack
+            </button>
+        </div>
+        <div class="button dataButton">
+            <button type="button" class="btn btn-success button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                data science
+            </button>
+        </div>
+        <div class="button mobileButton">
+            <button type="button" class="btn btn-warning button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                mobile
+            </button>
+        </div>
+        <div class="button embeddedButton">
+            <button type="button" class="btn btn-primary button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                embedded
+            </button>
+        </div>
+        <div class="button txtImgToggle">
+            <input type="checkbox" checked data-toggle="toggle" data-on="text" data-off="image" data-style="ios" data-onstyle="dark" data-offstyle="light">
+        </div>        
+    </section>
+
+    <section class="mainSection">    
+        <article class="eduction">
+            <h1>education</h1>
+            <ul>
+                <li><a href="https://www.khu.ac.kr/eng/main/index.do">Kyung Hee University</a> - computer engineering major</li>
+                <li>
+                    <details>
+                        <summary>Coursera online course - certificate</summary>
+                        - <a href="https://www.coursera.org/account/accomplishments/records/XUV6FUTQJC3X">Introduction to HTML5 - University of Michigan</a><br>
+                        - <a href="https://www.coursera.org/account/accomplishments/records/HA2Q2LS6MTS9">Introduction to CSS3 - University of Michigan</a><br>
+                        - <a href="https://www.coursera.org/account/accomplishments/records/5458Q4GS5QYP">Interactivity with JavaScript - University of Michigan</a><br>
+                        - <a href="https://www.coursera.org/account/accomplishments/records/K77RAAGFMH5H">Advanced Styling with Responsive Design</a><br>
+                        - <a href="https://www.coursera.org/account/accomplishments/records/XRG57Z6B6AAM">Divide and Conquer, Sorting and Searching, and Randomized Algorithms - Stanford University</a>
+                    </details>
+                </li>
+                <li></li>
+            </ul>
+        </article>
+        <article class="experience">
+            <h1>experience</h1>
+            <ul>
+                <li>
+                    built my portfolio page (used bootstrap 4)<br>
+                    - for detailed view visit my <a href="https://github.com/eric8979">github</a> page or <a href="#">blog</a> page -
+                </li>
+                <li></li>
+            </ul>
+        </article>
+        <article class="leadershipAndAwards">
+            <h1>leadership and awards</h1>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </article>
+        <article class="optional">
+            <h1>optional final section</h1>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </article>
+    </section>
+
+    <footer class="container">
+        <div id="footerContact" class="row">
+            <div class="col-md-6 contact">
+                contact : hsh048148@gmail.com <br><br>
+                <a class="sns" href="https://www.linkedin.com/in/eric-hwang-4853301ab/">linkedIn <img src="image/linkedin.png" alt="linkedIn"></a> 
+                &emsp;
+                <a class="sns" href="https://twitter.com/hwang_erik">twitter <img src="image/twitter.png" alt="twitter"></a> 
+                &emsp;
+                <a class="source" href="https://github.com/eric8979">gitHub <img src="image/github.png" alt="gitHub"></a>
+                &emsp;
+                <a class="youtubeChannel" href="https://www.youtube.com/channel/UCEb4WYnanZcA-1KzBIDxLZA?view_as=subscriber"><img src="image/youtube.png" alt="YouTube channel"></a>
+            </div>
+            <form class="col-md-6">
+                <span class="form-group">
+                  <label for="exampleInputEmail1">subscribe for updates</label>
+                  <button type="submit" class="subscribeButton btn btn-dark">Submit</button>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </span>
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+</body>
+</html>
